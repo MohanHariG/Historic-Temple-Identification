@@ -40,19 +40,17 @@ This project aims to promote cultural heritage by offering an easy way to identi
    cd temple-identification
 
 2. **Backend Setup**
+   ```bash
     cd backend
     python -m venv venv
     source venv/bin/activate  # On Windows, use venv\Scripts\activate
     pip install -r requirements.txt
     flask run
 
-3. **FrontendSetup**
+4. **FrontendSetup**
+   ```bash
     cd frontend
     npm install
     npm start
-
-4. **Run the Application**
-    Backend: http://localhost:5000
-    Frontend: http://localhost:3000
 
 
